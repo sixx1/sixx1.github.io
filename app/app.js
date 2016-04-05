@@ -71,7 +71,7 @@ mainApp.controller('bigNews', function($scope, $http, $routeParams) {
 });
 
 mainApp.controller('projectYear', function($scope, $http, $routeParams, $location) {
-	$http.get('app/obrada.php?file=project').success(function(data) {
+	$http.get('app/project.json').success(function(data) {
 		$scope.data = data;
 	})
 	$scope.getClass = function (path) {
@@ -82,7 +82,7 @@ mainApp.controller('projectYear', function($scope, $http, $routeParams, $locatio
 });
 
 mainApp.controller('projectB', function($scope, $http, $routeParams) {
-	$http.get('app/obrada.php?file=project').success(function(data) {
+	$http.get('appapp/project.json').success(function(data) {
 		for(var i = 0; i<data.length; i++) {
 			if (data[i].id === parseInt($routeParams.id)) {
 				return $scope.item = data[i];			
