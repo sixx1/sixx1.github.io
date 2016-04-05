@@ -1,0 +1,65 @@
+[{
+	"id": 1,
+	"likes": 200,
+	"title": "fondue",
+	"desc": "<b>project assistant</b> Francesco domperi <br/><b>material</b> glass and metal <br/><b>typology</b> suspension lamp <br/><b>client</b> david desconi<br/>",
+	"year": 2014,
+	"imgsrc": "img/img1.png",
+	"long": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+}, {
+	"id": 2,
+	"likes": 196,
+	"title": "potter",
+	"desc": "<b>For</b> stelon lorem ipsum dolor sit amet, consectetur adipisicing elit.<br/>",
+	"year": 2015,
+	"imgsrc": "img/louis_xx.png",
+	"long": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+}, {
+	"id": 3,
+	"likes": 150,
+	"title": "tabano",
+	"desc": "<b>designer</b> patricia urquiola <br/><b>typology</b> armchair <br/><b>Client</b> bb italia <br/>",
+	"year": 2016,
+	"imgsrc": "img/tabano.png",
+	"long": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+}, {
+	"id": 4,
+	"likes": 65,
+	"title": "louis xx",
+	"desc": "<b>designer</b> patricia urquiola <br/><b>typology</b> chair <br/><b>Client</b> vitra </b>",
+	"year": 2013,
+	"imgsrc": "img/potter.png",
+	"long": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+}, {
+	"id": 5,
+	"likes": 320,
+	"title": "sasann",
+	"desc": "<b>designer</b> ganfrando frattini <br/><b>typology</b> armchairs <br/><b>Client</b> cassina <br/>",
+	"year": 2015,
+	"imgsrc": "img/Sesann.png",
+	"long": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+}, {
+	"id": 6,
+	"likes": 101,
+	"title": "fiji",
+	"desc": "<b>designer</b> cuno <br/> fernandez <br/><b>typology</b> armchairs <br/>",
+	"year": 2014,
+	"imgsrc": "img/FIJI.png",
+	"long": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+}, {
+	"id": 7,
+	"likes": 320,
+	"title": "395-396-P22",
+	"desc": "<b>designer</b> patrick urquiola <br/><b>typology</b> armchairs <br/><b>Client</b> cassina <br/>",
+	"year": 2013,
+	"imgsrc": "img/395.png",
+	"long": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+}, {
+	"id": 8,
+	"likes": 28,
+	"title": "alessi",
+	"desc": "<b>designer</b> piero lessoni <br/><b>Client</b> cassina <br/>",
+	"year": 2016,
+	"imgsrc": "img/alessi.png",
+	"long": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+}]

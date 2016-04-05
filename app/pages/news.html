@@ -1,0 +1,11 @@
+<div id="main" class="row newscont">
+	<div class="col-md-4" id="news">
+		<h1> news </h1>
+	</div>
+	<div class="col-md-4 vest" ng-repeat="item in data.news">
+		<h2> {{item.title}} </h2>
+		<p> {{item.date}} </p>
+		<img src="{{item.imgsrc}}">
+		<p> {{item.short}} </p>
+		<a href="#news/{{item.id}}"> <b> read more </b> </a>
+	</div>

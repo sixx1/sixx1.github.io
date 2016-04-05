@@ -1,0 +1,360 @@
+@media (max-width: 900px) {
+	#sasann img {
+		top: 5px !important;
+	}
+	div#potter>img {
+    	top: 0 !important;
+	}
+	div#tabano, div#louis {
+		height: 250px;
+	}
+	#fiji .slika {
+		position: absolute;
+	}
+	#fiji .tekst {
+		position: absolute;
+		right: 0;
+	}
+	#p22 .viewP {
+		top: initial !important;
+	}
+}
+@media (max-width: 426px) {
+	#navStudio {
+		height: 300px !important;
+	}
+	#main > div {
+    	height: initial;
+    	margin-bottom: 10px;
+	}
+	div#navProj, div#potter, div#fondue {
+		height: 300px;
+	}
+	div#tabano {
+		height: 250px;
+	}
+	div#sasann .viewP {
+		right: 0 !important;
+	}
+	#p22 .tekst {
+		padding-left: 10px !important;
+	}
+	#p22 div.viewP {
+		top: 80px !important;
+		right: 0 !important;
+	}
+}
+@media (max-width: 992px) {
+
+}
+#main {
+	margin-top: 10px;
+}
+.viewP {
+	padding: 5px 10px;
+    background-color: #EBB240;
+    color: white;
+    width: 110px;
+}
+.viewP p {
+	margin: 0;
+}
+.viewP p a {
+	color: white;
+}
+.viewP p a:hover {
+	text-decoration: none;
+	color: black;
+}
+.viewP:hover {
+	background-color: white;
+	border: 1px solid black;
+}
+.like img {margin-left: 10px;}
+#navProj {
+	text-transform: uppercase;
+	height: 300px;
+	background-image: url(../img/navProj.png) ;
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+#navProj ul {
+	color: white;
+	padding-top:20px;
+	padding-left: 20px;
+}
+#navProj ul li { 
+	list-style: none;
+}
+#navProj ul li a {
+	text-decoration: none;
+	color: white;
+}
+/*#navProj ul:hover #mark {color: white; list-style:none;}
+#navProj li#mark {
+	color: black;
+	list-style-image: url(../img/arrow_white.png);
+}
+#navProj li#mark:hover {list-style-image: url(../img/arrow_white.png);}
+#navProj li#mark a {color: black;}
+#navProj ul li:hover {list-style-image: url(../img/arrow_white.png);}
+#navProj ul li:hover a {color: black;}*/
+#navProj h1 {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
+.row h2 {text-transform: uppercase;}
+#main>div {overflow: hidden;}
+.projectscont>div>img {
+	position: absolute;
+	z-index: -1;
+}
+#fondue {
+	border-top: solid 1px lightgrey;
+	overflow: hidden;
+	height: 300px;
+}
+#fondue>img {
+	width: 70%;
+	top: -60px;
+	right: 0;
+}
+#potter {
+	color: white;
+	height: 300px;
+}
+#potter>img {
+	width: 100%;
+	top: -155px;
+	right: 0;
+}
+#tabano {
+	z-index: 0;
+	height: 300px;
+	background-color: #E9EAE2;
+}
+#tabano>img {
+	width: 80%;
+	top: 0;
+	right: 0;
+	z-index: -1;
+}
+#louis {
+	height: 300px;
+	background-color: #DFE0D9;
+    z-index: 0;
+    border-left: solid 1px #EBB240;
+}
+#louis>img {
+	width: 87%;
+	top: 0;
+	right: 0;
+}
+#sasann {
+	background-color: white;
+	height: 300px;
+	overflow: hidden;
+	z-index: 0;
+}
+#sasann>img {
+	width: 100%;
+	top: -10px;
+}
+#sasann h2 {
+	margin-top: 140px;
+}
+#sasann .viewP {
+	position: absolute;
+	top: 180px;
+	right: 110px;
+}
+#sasann .like {
+	position: absolute;
+	top: 210px;
+	right: 150px;
+}
+.like p {padding-left: 5px;}
+#fiji {
+	background-color: white;
+	border-left: solid 1px lightgrey;
+	height: 300px;
+}
+#fiji .slika {width: 60%; overflow: hidden; float: left}
+#fiji .tekst {float: left;}
+div#fiji>img {position: relative;}
+#timeline {
+	height: 230px;
+	background-image: url(../img/home-Recovered_0001s_0001_projects.png);
+	background-size: 400px;
+}
+#p22 {height: 450px;border-right: 1px solid lightgrey; padding-left: 0;}
+#p22 .tekst {padding-left: 300px;}
+#p22 .viewP {
+    position: absolute;
+    top: 60px;
+    right: 80px;
+}
+#p22 .like {
+    position: absolute;
+    top: 90px;
+    right: 120px;
+}
+#p22>img {
+	top: 0;
+	width: 100%;
+}
+#alessi {
+    background-color: #CECECE;
+    z-index: 0;
+    padding-left: 0;
+    height: 220px;
+}
+#alessi .tekst {float: right;}
+#alessi>img {top: 0;}
+#timeline .tekst {float:right; padding-top: 20px; padding-right: 10px;}
+.tekst ul {color: white;z-index: 1; list-style: none;}
+.tekst ul li#markY {
+	color: black;
+	cursor: pointer;
+	list-style-image: url(../img/arrow_white.png);
+}
+.tekst ul:hover #markY {
+	list-style: none;
+}
+.tekst ul li:hover {
+	color: black;
+	cursor: pointer;
+	list-style-image: url(../img/arrow_white.png);
+}
+
+/*news*/
+
+#news {
+	background-image: url(../img/news.png);
+	height: 400px;
+	background-size: 100%;
+	background-repeat: no-repeat; 
+}
+#news h1 {text-transform: uppercase;}
+.vest h2 {
+	text-transform: uppercase;
+}
+.vest a {
+	float: right;
+	text-transform: uppercase;
+	color: #F78546;
+}
+.news-big {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+/*studio*/
+
+#navStudio {
+	background-image: url(../img/studio.png);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	height: 400px;
+}
+#navStudio h1 {
+	margin-top: 50px;
+	margin-left: 50px;
+	text-transform: uppercase;
+	color: white;
+}
+#studioTxt {
+	padding-top: 20px;
+}
+#studioAw {
+	height: 400px;
+}
+#studioImg {
+	width: 100%;
+}
+#awardBorder {
+	margin: 10px;
+	border-bottom: dotted 1px blue;
+	display: block;
+}
+.floatStudio {
+	width: 45%;
+	float: left;
+	margin-left: 10px;
+}
+.stafTxt h4 {
+	text-transform: uppercase;
+	margin-bottom: 5px;
+}
+.staffName {
+	margin-top: 20px;
+}
+.staffName h4 {
+	text-transform: uppercase;
+	margin-bottom: ;
+}
+.staffName>img {
+	width: 100%;
+}
+.cvLeft {
+	float: left;
+}
+.cvSocial {
+	float: right;
+}
+/*contact*/
+#mapa {
+	width: 100%;
+}
+#contnum {
+	margin-left: 20px; 
+	text-transform: uppercase;
+}
+#contnum a {
+	text-transform: none;
+}
+/* rojectyear*/
+.year {
+	height: 300px;
+}
+.yearTekst {
+	width: 50%;
+	float: left;
+}
+.year>img {
+	right: 0;
+    z-index: -1;
+    position: absolute;
+    max-height: 100%;
+    max-width: 100%;
+}
+#timelineyear {
+	background-color: #EBB240;
+	height: 300px;
+	background-image: url(../img/home-Recovered_0001s_0001_projects.png);
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+li a {
+	color: white;
+}
+li a:hover {
+	text-decoration: none !important;
+	color: black;
+}
+.markY a {
+	color: black !important;
+}
+.markY {
+	list-style-image: url(../img/arrow_white.png);
+}
+ul:hover .markY {
+	list-style: none;
+}
+/*projectb */
+
+.pbslika img {
+	max-height: 500px;
+	max-width: 100%;
+}

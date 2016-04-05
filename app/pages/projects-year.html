@@ -1,0 +1,33 @@
+<div id="main" class="row projectsyear">
+	<div class="col-md-4" id="navProj">
+		<ul>
+			<li>house</li>
+			<li>commercial</li>
+			<li>personal</li>
+			<li>studio lab</li>
+		</ul>
+		<h1>projects</h1>
+	</div>
+	<div class="col-md-8 year" ng-repeat="item in data" ng-if="item.year == year">
+		<div class="yearTekst">
+		<h2> {{item.title}} </h2>
+		<p ng-bind-html= "item.desc"> </p>
+		<p><b> year: </b> {{item.year}}</p>
+		<div class="viewP">
+			<p> view project </p>
+		</div>
+		</div>
+		<img src={{item.imgsrc}} />
+	</div>
+	<div class="col-md-4" id="timelineyear">
+	<div class="tekst">
+		<h3> Timeline </h3>
+		<ul>
+			<li ng-class="getClass('/projects/2016')"><a href="#projects/2016">2016</a></li>
+			<li ng-class="getClass('/projects/2015')"><a href="#projects/2015">2015</a></li>
+			<li ng-class="getClass('/projects/2014')"><a href="#projects/2014">2014</a></li>
+			<li ng-class="getClass('/projects/2013')"><a href="#projects/2013">2013</a></li>
+			<li><a href="#projects">ALL</a></li>
+		</ul>
+		</div>
+	</div>
