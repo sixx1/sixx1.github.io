@@ -49,19 +49,19 @@ mainApp.controller('meniController', function($scope) {
 });
 
 mainApp.controller('projectController', function($scope, $http) {
-	$http.get('app/obrada.php?file=project').success(function(data) {
+	$http.get('app/project.json').success(function(data) {
 		$scope.data = data;
 	})
 });
 
 mainApp.controller('newsController', function($scope, $http) {
-	$http.get('app/obrada.php?file=news').success(function(data) { 
+	$http.get('app/news.json').success(function(data) { 
 		$scope.data = data;
 	})
 });
 
 mainApp.controller('bigNews', function($scope, $http, $routeParams) {
-	$http.get('app/obrada.php?file=news').success(function(data) {
+	$http.get('app/news.json').success(function(data) {
 		for(var i = 0; i<data.news.length; i++) {
 			if (data.news[i].id === parseInt($routeParams.id)) {
 				return $scope.data = data.news[i];			
